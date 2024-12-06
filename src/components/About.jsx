@@ -1,4 +1,3 @@
-import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "motion/react";
 function About() {
@@ -10,7 +9,7 @@ function About() {
       <div className="flex flex-wrap">
         <motion.div whileInView={{opacity: 1, x: 0}} initial={{opacity: 0, x: -100}} transition={{duration: 0.5}} className="w-full lg:w-1/2 lg:p-8">
           <div className="flex items-center justify-center">
-            <img className="rounded-2xl" src={aboutImg} alt="about" />
+            <img className="rounded-2xl h-[620px] w-[520px]" src={"https://i.ibb.co.com/rsZD2qS/6f4b1828af6d66304265d85a8f9a228d.jpg"} alt="about" />
           </div>
         </motion.div>
 
