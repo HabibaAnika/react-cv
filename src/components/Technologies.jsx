@@ -3,8 +3,6 @@ import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";
-import { DiRedis } from "react-icons/di";
-import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 // Function for defining animation variants for each icon
@@ -25,9 +23,7 @@ const technologies = [
   { Icon: RiReactjsLine, color: "text-cyan-400", label: "React.js", duration: 2.5 },
   { Icon: TbBrandNextjs, color: "", label: "Next.js", duration: 3 },
   { Icon: SiMongodb, color: "text-green-500", label: "MongoDB", duration: 5 },
-  { Icon: DiRedis, color: "text-red-700", label: "Redis", duration: 2 },
   { Icon: FaNodeJs, color: "text-green-500", label: "Node.js", duration: 6 },
-  { Icon: BiLogoPostgresql, color: "text-sky-700", label: "PostgreSQL", duration: 4 },
   { Icon: SiExpress, color: "", label: "Express.js", duration: 4 },
 ];
 
